@@ -40,8 +40,8 @@ function Home(props) {
     return (
         <>
             <Top title={ 'E-WALLET' } subTitle={ 'ACTIVE CARD' }/>
-             { cardObjects.length > 0 && <Card cardnumber={ cardObjects[activeCard].number } name={ cardObjects[activeCard].cardName } valid={ cardObjects[activeCard].validDate } color={ cardObjects[activeCard].color } text={ cardObjects[activeCard].text } chip={ cardObjects[activeCard].chip } logo={ cardObjects[activeCard].logo } /> }
-             <button className='delete' onClick={ deleteActiveCard }>DELETE ACTIVE CARD</button>
+            { cardObjects.length > 0 && <Card cardnumber={ cardObjects[activeCard].number } name={ cardObjects[activeCard].cardName } valid={ cardObjects[activeCard].validDate } color={ cardObjects[activeCard].color } text={ cardObjects[activeCard].text } chip={ cardObjects[activeCard].chip } logo={ cardObjects[activeCard].logo } /> }
+            <button className='delete' onClick={ deleteActiveCard }>DELETE ACTIVE CARD</button>
             <CardStack cards={ cards } />
             <button className="add-new-card" onClick={ goToAddCard }>ADD A NEW CARD</button>
         </>
