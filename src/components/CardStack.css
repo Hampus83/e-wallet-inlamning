@@ -1,0 +1,6 @@
+.card-stack {
+    width: 100%;
+    display: grid;
+    grid-auto-rows: 2.5rem;
+    margin: 2rem;
+}

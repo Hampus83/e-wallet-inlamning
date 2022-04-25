@@ -1,0 +1,17 @@
+.title {
+    padding-top: 1rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 35px;
+    width: 200px;
+    margin: 0 auto;
+}
+  
+.sub-title {
+    margin-top: 1rem;
+    font-size: 12px;
+    color: #222222;
+    opacity: 80%;
+}
+

@@ -1,0 +1,49 @@
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form section article .sub-title {
+    justify-self: flex-start;
+    text-align: left;
+}
+
+.form section article .input {
+    width: 175px;
+}
+
+.form .sub-title {
+    align-self: flex-start;
+    margin-bottom: 0.2rem;
+    margin-top: 1rem;
+}
+
+.input {
+    width: 100%;
+    height: 56px;
+    font-size: 18px;
+    padding: 0.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+    outline: none;
+}
+
+.button {
+    width: 100%;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 1.6rem 2rem;
+    margin-top: 2.2rem;
+    border-radius: 8px;
+}
+
+.add-card {
+    background-color: #000;
+    color: #ffffff;
+}
